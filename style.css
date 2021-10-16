@@ -1,0 +1,32 @@
+/* Remove styles of the web browser */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+/* ----- */
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+}
+
+.navbar-and-logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
