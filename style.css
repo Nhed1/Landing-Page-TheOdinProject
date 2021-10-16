@@ -75,3 +75,47 @@ main .cards{
     gap: 5px;
 }
 
+/* quote content */
+.quote {
+    padding: 50px;
+    background-color: rgb(168, 164, 164);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text{
+
+}
+
+/* modal content */
+.modal {
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(63, 63, 228);
+    color: white;
+
+}
+
+.button-modal {
+    align-self: center;
+}
+
+.button-modal button{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px white solid;
+    color: white;
+    background-color: transparent;
+}
+
+/*footer content*/
+
+
+
+
