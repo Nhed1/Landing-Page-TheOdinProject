@@ -8,7 +8,7 @@
 img{
     max-width: 100%;
     height: auto;
-    width: 300px;
+    width: 250px;
 }
 
 a {
@@ -32,7 +32,7 @@ header{
 .navbar-and-logo, .content-header {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 65%;
 }
 
 .logo{
@@ -59,7 +59,7 @@ main {
 main .cards{
     gap: 20px;
     display: flex;
-    width: 100%;
+    width: 90%;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -94,7 +94,8 @@ main .cards{
     margin: 0 auto;
     margin-top: 50px;
     padding: 30px;
-    width: 70%;
+    width: 30%;
+    min-width: 200px;
     display: flex;
     justify-content: space-around;
     background-color: rgb(63, 63, 228);
@@ -116,6 +117,12 @@ main .cards{
 
 /*footer content*/
 
-
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(18, 18, 163);
+    margin-top: 50px;
+    padding: 30px;
+}
 
 
