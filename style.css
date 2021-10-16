@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 img{
     max-width: 100%;
     height: auto;
@@ -18,21 +22,23 @@ a {
 ul {
     list-style: none;
 }
+
 /* ----- */
 
 /* header navs */
+
 header{
     display: flex;
     flex-direction: column;
     border: 1px black solid;
-    padding: 1.2rem 4rem;
+    /* padding: 1.2rem 4rem; */
     align-items: center;
 }
 
 .navbar-and-logo, .content-header {
     display: flex;
     justify-content: space-between;
-    width: 65%;
+    width: 70%;
 }
 
 .logo{
@@ -100,7 +106,6 @@ main .cards{
     justify-content: space-around;
     background-color: rgb(63, 63, 228);
     color: white;
-
 }
 
 .button-modal {
@@ -118,7 +123,8 @@ main .cards{
 /*footer content*/
 
 footer{
-    display: flex;
+    display: absolute;
+    bottom: 0;
     justify-content: center;
     background-color: rgb(18, 18, 163);
     margin-top: 50px;
