@@ -23,6 +23,17 @@ ul {
     list-style: none;
 }
 
+.container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.wrap-content {
+    padding-bottom: 3.5rem;
+
+}
+
+
 /* ----- */
 
 /* header navs */
@@ -33,6 +44,7 @@ header{
     border: 1px black solid;
     /* padding: 1.2rem 4rem; */
     align-items: center;
+    padding: 30px;
 }
 
 .navbar-and-logo, .content-header {
@@ -60,6 +72,7 @@ main {
     align-items: center;
     padding: 50px;
     gap: 15px;
+    flex: 1;
 }
 
 main .cards{
@@ -96,8 +109,11 @@ main .cards{
 
 /* modal content */
 .modal {
+    display: flex;
+    flex: 1;
     border-radius: 10px;
     margin: 0 auto;
+    margin-bottom: 50px;
     margin-top: 50px;
     padding: 30px;
     width: 30%;
@@ -123,12 +139,15 @@ main .cards{
 /*footer content*/
 
 footer{
-    display: absolute;
-    bottom: 0;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    background-color: rgb(18, 18, 163);
-    margin-top: 50px;
-    padding: 30px;
-}
+    padding: 1.85rem;
+    position: absolute;
+    background-color: blue;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+}   
 
 
